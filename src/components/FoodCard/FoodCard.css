@@ -1,0 +1,13 @@
+.card{
+
+    width: 400px;
+    height: 200px;
+    background-color: rgb(182, 173, 191);
+    border-radius: 20px;
+}
+
+.title{
+        color: #F5F5F5;
+        margin-bottom: 10px;
+      
+}
