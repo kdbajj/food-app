@@ -1,5 +1,20 @@
 body{
   background-color:#F5F5F5 ;
-
+  font-family: 'Roboto', sans-serif;
 }
 
+.text{
+  color: #1F1F1F;
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+}
+.logo{
+  width: 20rem;
+  height: 10rem;
+  margin: 0 auto;
+  display: inline-block;
+}
+.logo img {
+  width: 80%;
+  height: auto;
+}
