@@ -1,13 +1,16 @@
-
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-.cardsContainer{
-display: flex;
-flex-wrap: wrap;
-gap: 1.5rem;
+html,
+body {
+  height: 100%;
 }
 
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  height: 100%;
+}
