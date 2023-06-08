@@ -1,0 +1,8 @@
+.nav-icon {
+  cursor: pointer;
+}
+
+.nav-menu-items {
+  list-style: none;
+  padding: 0;
+}

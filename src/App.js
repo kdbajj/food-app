@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import FoodCard from './components/FoodCard/FoodCard'
 import TagMenu from './components/TagMenu/TagMenu'
+import SideBar from './components/SideBar/SideBar'
 
 const TEMP_DATA = [
   {
@@ -41,6 +42,7 @@ function App() {
 
   return (
     <div className="App">
+      <SideBar />
       <header className="App-header">
         <div className="logo">
           <img src="./images/Logo.png" alt="Logo"></img>
