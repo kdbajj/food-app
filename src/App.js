@@ -25,6 +25,19 @@ const TEMP_DATA = [
       'https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/zupa-krem-z-pieczonej-papryki-01.jpg',
     tag: ['Vegan', 'Soup', 'Vegetarian'],
   },
+
+  {
+    name: 'Gofry',
+    image:
+      'https://www.tvokazje.pl/img/cms/zdjęcia%20blog%20schema/gofry_beligjskie.jpg',
+    tag: ['Desert', 'Vegetarian'],
+  },
+
+  {
+    name: 'Tosty',
+    image: 'https://hurtidetal.pl/i/1/_art/24066/5756826165beeb6468a06c.jpg',
+    tag: ['Breakfast', 'Meat'],
+  },
 ]
 
 function App() {
@@ -44,8 +57,10 @@ function App() {
     <div className="App">
       <SideBar />
       <header className="App-header">
-        <div className="logo">
-          <img src="./images/Logo.png" alt="Logo"></img>
+        <div className="logo-container">
+          <div className="logo">
+            <img src="./images/Logo.png" alt="Logo"></img>
+          </div>
         </div>
         <h1 className="text">Explore recipes</h1>
       </header>
