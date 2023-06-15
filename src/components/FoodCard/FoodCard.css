@@ -8,15 +8,18 @@
   overflow: hidden;
   background-color: transparent;
   transition: all 0.3s ease-in-out;
+  margin-bottom: 20px;
+  margin-right: 0;
+  box-shadow: 0 0 20px #989e9b;
 }
 
 .card:hover {
-  box-shadow: 0 0 40px #025026;
+  box-shadow: 0 0 20px #025026;
+  cursor: pointer;
 }
 
 .card img {
   width: 110%;
-
   height: 130%;
 }
 
@@ -27,14 +30,17 @@
 
 .tag {
   color: #f4f6f6;
-  margin-right: 10px;
-  font-size: 13px;
-  margin: 0;
+  /* margin-right: 10px; */
+  /* margin-left: 10px; */
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: 200;
 }
 
 .tag h3 {
   border-radius: 20px;
-  padding: 2px 5px;
+  padding: 5px 12px;
+  margin-right: 6px;
 }
 
 .tag:last-child {
@@ -66,19 +72,20 @@
 
 .card-image .title {
   position: absolute;
+  align-items: center;
   bottom: 10px;
   left: 10px;
-  width: 100%;
-  font-size: 1.2rem;
-  text-align: left;
-  font-size: 20;
+  border-radius: 20px;
+  width: auto;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px 10px;
   color: #f4f6f6;
   margin: 0;
 }
 
-.image-container {
-  /* position: relative;
-  display: inline-block; */
+.title h3 {
+  font-size: 19px;
 }
 
 .image-container::before {
@@ -103,6 +110,7 @@
 .image-container img {
   display: block;
   max-width: 100%;
+
   height: auto;
   position: relative;
 }
