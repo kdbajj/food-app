@@ -14,3 +14,13 @@ body {
   gap: 1.5rem;
   height: 100%;
 }
+
+/* Styl dla małych ekranów (telefony) */
+@media screen and (max-width: 600px) {
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Zmniejszone odstępy między kartami dla mniejszych ekranów */
+    padding: 1rem; /* Padding, aby dodać trochę przestrzeni na brzegach */
+  }
+}

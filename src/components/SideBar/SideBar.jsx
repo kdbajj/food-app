@@ -3,8 +3,8 @@ import * as FaIcons from 'react-icons/fa'
 import * as AiIcons from 'react-icons/ai'
 import './SideBar.css'
 import { SideBarData } from './SideBarData'
-import { IconContext } from 'react-icons'
-import { hover } from '@testing-library/user-event/dist/hover'
+// import { IconContext } from 'react-icons'
+// import { hover } from '@testing-library/user-event/dist/hover'
 
 function SideBar() {
   const [sidebar, setSidebar] = useState(false)
@@ -31,6 +31,7 @@ function SideBar() {
             })}
           </ul>
         </nav>
+   
       </div>
     </>
   )

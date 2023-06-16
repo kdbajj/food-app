@@ -29,3 +29,8 @@ export const SideBarData = [
     cName: 'nav-text',
   },
 ]
+
+function toggleMenu() {
+  var menu = document.querySelector(".nav-menu");
+  menu.classList.toggle("active");
+}

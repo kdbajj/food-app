@@ -99,7 +99,7 @@ span {
 }
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
   padding: 0;
@@ -130,6 +130,142 @@ span {
   justify-self: start;
   align-items: center;
   width: 20vh;
+}
+
+.menu-bars {
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: #2b8c40;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  left: -100%;
+  transition: 850ms;
+  z-index: 1000;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 0.5s;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.nav-text span {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 1.25rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+  border-radius: 20px;
+}
+
+.nav-text:hover {
+  background-color: #f5f5f5;
+}
+
+.nav-text:hover span {
+  color: #012622;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-text:hover span {
+  background-color: none;
+}
+
+span {
+  margin-left: 5px;
+}
+
+Styl dla małych ekranów (telefony) 
+@media screen and (max-width: 600px) {
+  .nav-icon {
+    font-size: 8vw;
+  }
+
+  .navbar {
+    height: 12vh;
+    width: 100vw;
+  }
+
+  .menu-bars {
+    font-size: 6vw;
+  }
+
+  .nav-menu {
+    width: 65vw;
+    height: 100vh;
+  }
+
+  .nav-text {
+    height: 10vh;
+    padding: 2vh 0 2vh 4vw;
+  }
+
+  .nav-text span {
+    font-size: 4vw;
+    padding: 0 4vw;
+  }
+
+  span {
+    margin-left: 1vw;
+  }
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-icon {
+  cursor: pointer;
+  font-size: 32px;
+  color: #012622;
+}
+
+.menu-icon {
+  background-color: none;
+}
+
+.nav-menu-items {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar {
+  background-color: none;
+  height: 80px;
+  display: flex;
+  cursor: pointer;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px; /* Dodaj padding, aby przesunąć ikonę menu w lewo */
+  width: 100%; /* Zmień szerokość na 100%, aby ikona menu była widoczna na małych ekranach */
 }
 
 .menu-bars {
