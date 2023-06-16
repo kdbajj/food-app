@@ -36,6 +36,22 @@ body {
   height: auto;
 }
 
+.tags-container {
+  display: flex;
+  margin: 1rem 0;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Ukryj pasek przewijania */
+.tags-container::-webkit-scrollbar {
+  display: none;
+}
+
 /* Styl dla małych ekranów (telefony) */
 @media screen and (max-width: 600px) {
   .text {

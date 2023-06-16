@@ -64,7 +64,7 @@ function App() {
         </div>
         <h1 className="text">Explore recipes</h1>
       </header>
-      <div style={{ display: 'flex' }}>
+      <div style={{ display: 'flex' }} className='tags-container'>
         {tags.map((tag) => (
           <TagMenu activeTag={activeTag} tagName={tag} onClick={setActiveTag} />
         ))}
