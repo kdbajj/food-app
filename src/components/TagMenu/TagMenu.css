@@ -20,6 +20,10 @@
 
 .MenuTags .active {
   color: #025026;
+  background-color: none;
+  border: none;
+  text-shadow: 0 0 20px #313131;
+  cursor: pointer;
 }
 .dot {
   height: 10px;

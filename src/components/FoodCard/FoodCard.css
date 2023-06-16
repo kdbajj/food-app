@@ -18,6 +18,11 @@
   cursor: pointer;
 }
 
+.card:active {
+  box-shadow: 0 0 40px #313131;
+  cursor: pointer;
+}
+
 .card img {
   width: 110%;
   height: 130%;
@@ -113,4 +118,38 @@
 
   height: auto;
   position: relative;
+}
+
+/* Styl podstawowy dla dużych i średnich ekranów */
+/* ... (tutaj wklej istniejący kod CSS) ... */
+
+/* Styl dla małych ekranów (telefony) */
+@media screen and (max-width: 600px) {
+  .card {
+    width: 90vw;
+    margin-bottom: 4vh;
+  }
+
+  .tag {
+    font-size: 4vw;
+    margin-bottom: 3vh;
+  }
+
+  .tag h3 {
+    padding: 1vw 2.5vw;
+    margin-right: 1vw;
+  }
+
+  .tag:first-child {
+    margin-left: 1vw;
+  }
+
+  .card-image .title {
+    font-size: 6vw;
+    padding: 1vw 2vw;
+  }
+
+  .title h3 {
+    font-size: 3.8vw;
+  }
 }
